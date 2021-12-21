@@ -1,0 +1,367 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\dev\smartcontract\truffle> npm
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project    
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term> (in a browser)
+npm help npm       more involved overview (in a browser)
+
+All commands:
+
+    access, adduser, audit, bin, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    hook, init, install, install-ci-test, install-test, link,
+    ll, login, logout, ls, org, outdated, owner, pack, ping,
+    pkg, prefix, profile, prune, publish, rebuild, repo,
+    shrinkwrap, star, stars, start, stop, team, test, token,
+
+Specify configs in the ini-formatted file:
+    C:\Users\edwar\.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@8.1.2 C:\Program Files\nodejs\node_modules\npm
+PS C:\Users\dev\smartcontract\truffle> npm install --save-dev @openzeppelin/truffle-upgrade^C
+PS C:\Users\dev\smartcontract\truffle> npm install truffle -g
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated redux-devtools-instrument@1.10.0: Package moved to @redux-devtools/instrument.
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated ipld-raw@6.0.0: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated redux-devtools-core@0.2.1: Package moved to @redux-devtools/app.
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated remotedev-serialize@0.1.9: Package moved to @redux-devtools/serialize.
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.2.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated apollo-tracing@0.15.0: The `apollo-tracing` package is no longer part of Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#tracing for details
+npm WARN deprecated uuid@3.2.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated graphql-extensions@0.15.0: The `graphql-extensions` API has been removed from Apollo Server 3. 
+Use the plugin API instead: https://www.apollographql.com/docs/apollo-server/integrations/plugins/
+npm WARN deprecated ipld-dag-cbor@0.17.1: This module has been superseded by @ipld/dag-cbor and multiformats
+npm WARN deprecated cids@1.1.9: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@4.0.6: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@4.0.6: This module has been superseded by the multiformats module
+npm WARN deprecated node-pre-gyp@0.11.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated graphql-tools@6.2.6: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+npm WARN deprecated @nodefactory/filsnap-adapter@0.2.2: Package is deprecated in favour of @chainsafe/filsnap-adapter
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated ipld-dag-pb@0.20.0: This module has been superseded by @ipld/dag-pb and multiformats
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated apollo-cache-control@0.14.0: The functionality provided by the `apollo-cache-control` package is built in to `apollo-server-core` starting with Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#cachecontrol for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multibase@4.0.6: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@3.1.2: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.2.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.2.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multicodec@3.2.1: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@2.1.3: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@2.1.3: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@2.1.3: This module has been superseded by the multiformats module
+npm WARN deprecated axios@0.20.0: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
+npm WARN deprecated graphql-tools@4.0.8: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+npm WARN deprecated graphql-tools@4.0.8: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+npm WARN deprecated graphql-tools@4.0.8: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.       
+
+added 954 packages, and audited 955 packages in 4m
+
+87 packages are looking for funding
+  run `npm fund` for details
+
+56 vulnerabilities (7 low, 33 moderate, 9 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+npm notice
+npm notice New minor version of npm available! 8.1.2 -> 8.3.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.3.0
+npm notice Run npm install -g npm@8.3.0 to update!
+npm notice
+PS C:\Users\dev\smartcontract\truffle> truffle
+Truffle v5.4.25 - a development framework for Ethereum
+
+Usage: truffle <command> [options]
+
+Commands:
+  build     Execute build pipeline (if configuration present)
+  compile   Compile contract source files
+  config    Set user-level configuration options
+  console   Run a console with contract abstractions and commands available
+  create    Helper to create new contracts, migrations and tests
+  db        Database interface commands
+  debug     Interactively debug any transaction on the blockchain
+  deploy    (alias for migrate)
+  develop   Open a console with a local development blockchain
+  exec      Execute a JS module within this Truffle environment
+  help      List all commands or provide information about a specific command
+  init      Initialize new and empty Ethereum project
+  install   Install a package from the Ethereum Package Registry
+  migrate   Run migrations to deploy contracts
+  networks  Show addresses for deployed contracts on each network
+  preserve  Save data to decentralized storage platforms like IPFS and Filecoin
+  publish   Publish a package to the Ethereum Package Registry
+  run       Run a third-party command
+  test      Run JavaScript and Solidity tests
+  unbox     Download a Truffle Box, a pre-built Truffle project
+  version   Show version number and exit
+  watch     Watch filesystem for changes and rebuild the project automatically
+
+See more at http://trufflesuite.com/docs
+
+PS C:\Users\dev\smartcontract\truffle>
+PS C:\Users\dev\smartcontract\truffle> truffle init
+
+Starting init...
+================
+
+> Copying project files to C:\Users\dev\smartcontract\truffle
+
+Init successful, sweet!
+
+Try our scaffold commands to get started:
+  $ truffle create test YourTestName         # scaffold a test
+
+http://trufflesuite.com/docs
+
+PS C:\Users\dev\smartcontract\truffle> truffle compile
+
+Compiling your contracts...
+===========================
+√ Fetching solc version list from solc-bin. Attempt #1
+√ Downloading compiler. Attempt #1.
+> Compiling .\contracts\Helloworld.sol
+> Compiling .\contracts\Migrations.sol
+
+ParserError: Source file requires different compiler version (current compiler is 0.8.10+commit.fc410830.Emscripten.clang) - note that nightly builds are considered to be strictly less than the released version
+ --> project:/contracts/Helloworld.sol:1:1:
+  |
+1 | pragma solidity 0.8.11;
+  | ^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Error: Truffle is currently using solc 0.8.10, but one or more of your contracts specify "pragma solidity 0.8.11".
+Please update your truffle config or pragma statement(s).
+(See https://trufflesuite.com/docs/truffle/reference/configuration#compiler-configuration for information on   
+PS C:\Users\dev\smartcontract\truffle> truffle compile
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Helloworld.sol
+> Compiling .\contracts\Migrations.sol
+
+ParserError: Source file requires different compiler version (current compiler is 0.8.10+commit.fc410830.Emscripten.clang) - note that nightly builds are considered to be strictly less than the released version
+ --> project:/contracts/Helloworld.sol:1:1:
+  |
+1 | pragma solidity 0.8.11;
+  | ^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Error: Truffle is currently using solc 0.8.10, but one or more of your contracts specify "pragma solidity 0.8.11".
+Please update your truffle config or pragma statement(s).
+(See https://trufflesuite.com/docs/truffle/reference/configuration#compiler-configuration for information on   
+configuring Truffle to use a specific solc compiler version.)
+
+Compilation failed. See above.
+Truffle v5.4.25 (core: 5.4.25)
+Node v16.13.1
+PS C:\Users\dev\smartcontract\truffle> truffle compile
+> Compiling .\contracts\Helloworld.sol
+> Compiling .\contracts\Migrations.sol
+> Compilation warnings encountered:
+
+    Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment 
+containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> project:/contracts/Helloworld.sol
+
+
+> Artifacts written to C:\Users\dev\smartcontract\truffle\build\contracts
+> Compiled successfully using:
+
+PS C:\Users\dev\smartcontract\truffle>
+PS C:\Users\dev\smartcontract\truffle>
+PS C:\Users\dev\smartcontract\truffle>
+PS C:\Users\dev\smartcontract\truffle> truffle compile
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Helloworld.sol
+> Compiling .\contracts\Migrations.sol
+> Compilation warnings encountered:
+
+    Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment 
+containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> project:/contracts/Helloworld.sol
+PS C:\Users\dev\smartcontract\truffle> truffle develop
+Truffle Develop started at http://127.0.0.1:9545/
+
+Accounts:
+(0) 0xa131adac0bb84131fc3bdbd53dc57310f75b3bc3
+(1) 0x092740c9b3ce6d7b890cfeadfa4e3c742d415065
+(2) 0xe8d82f7c16b306788524215aa72aa0ca061f4286
+(3) 0x5a464ea22dc7302615a35cdf04db563974e86e98
+(4) 0x3347a6e5fe1408b8ab09b6c6c287672bba6d355c
+(5) 0x20e7cba9a37b1ecf80ac2e801a5a16290950efd4
+(6) 0x028fedf8925269f2f0e7215abb80afb805591b29
+(7) 0xf49ad12ead73eff808b6b662989b15f80658056b
+(8) 0xd411231b514ad0f7b2afafd9e1101c85b224e47e
+(9) 0xfef3e555537d621a7210d6e991a6debb0877933d
+
+Private Keys:
+(0) 5f0cd7c7c1db38051e7db3fe1af016921726d42c86b0cb20b055a9a4f1bc8402
+(1) dec0e075fb2fd41098806b80e9aebeb3c1d5f68946d00ea6cf7d47b79756005f
+(2) aea73126b55c709b8ede95da3360709b64adbc0496514c74a4ea1fd63c60f3c4
+(3) 10a169536c6aaaee3249063f02089ef5719c64add114d49486ccfb07b1ba43fa
+(4) 126c6ebbcf81d366171f97e8d95251839e624da5c690a022a915bb6af31570a5
+(5) b4e8b3a1df3bf02719785519d9c2623968135927d1009284db1e4be217301b03
+(6) 27c42fde06dd47d03026e36cd749c5a286a41ac28b6067d888583b79474a6701
+(7) abdcbe85ed26045afab7e02c4dd0c342b357c231c04eb1f55c1286bd0a975466
+(8) e3ca3c88e43e8a1f7d83b1b1e6c6f2b40b368b18135aaef8ee4a1fced32e7ac3
+(9) b5f3c71522346d6ff39a40761e4bb36fde026886b123e7b4e22d4a0eff3ccee8
+
+Mnemonic: pull flavor fold tell early sea quote surge gravity debate pottery undo
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+truffle(develop)>
+undefined
+truffle(develop)> exit
+evalmachine.<anonymous>:0
+exit
+^
+
+Uncaught ReferenceError: exit is not defined
+    at evalmachine.<anonymous>
+    at sigintHandlersWrap (node:vm:268:12)
+    at Script.runInContext (node:vm:137:14)
+    at runScript (C:\Users\edwar\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\core\lib\console.js:364:1)
+    at Console.interpret (C:\Users\edwar\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\core\lib\console.js:379:1)
+    at bound (node:domain:421:15)
+    at REPLServer.runBound [as eval] (node:domain:432:12)
+    at REPLServer.onLine (node:repl:889:10)
+    at REPLServer.emit (node:events:390:28)
+    at REPLServer.emit (node:domain:475:12)
+truffle(develop)> truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Helloworld.sol
+> Compiling .\contracts\Migrations.sol
+> Compilation warnings encountered:
+
+    Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment 
+containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> project:/contracts/Helloworld.sol
+
+
+> Artifacts written to C:\Users\dev\smartcontract\truffle\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.10+commit.fc410830.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xc17cbe43372ddef2e756c560242425d45ff3eafea898aedd23ed1961f5c2a8b8
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x5d36Ca51f6F62D25254E59bdBA824c38CaE50157
+   > block number:        1
+   > block timestamp:     1640065027
+   > account:             0xa131AdaC0bb84131FC3BDbd53Dc57310F75b3bc3
+   > balance:             99.999502292
+   > gas used:            248854 (0x3cc16)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000497708 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000497708 ETH
+
+
+2_helloworld_migration copy.js
+==============================
+
+   Deploying 'Helloworld'
+   ----------------------
+   > transaction hash:    0x2087636856f8a78253e0524ba23a28f7b44b110cd11726381e14e9006371c704
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x3c9f5698fa480fE0C3672505A0c85F1FaDABC40B
+   > block number:        3
+   > block timestamp:     1640065029
+   > account:             0xa131AdaC0bb84131FC3BDbd53Dc57310F75b3bc3
+   > balance:             99.999147156
+   > gas used:            135055 (0x20f8f)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00027011 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00027011 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.000767818 ETH
+
+
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+
+truffle(develop)> let instance = await Helloworld.deployed()
+undefined
+truffle(develop)> instance.hello()
+'hello world'
+truffle(develop)>
